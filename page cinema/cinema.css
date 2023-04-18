@@ -1,7 +1,7 @@
 body{
     background-image: url(images/background.png);
     padding-top: 0;
-    overflow: hidden;
+    
   
 }
 .logo{
@@ -40,8 +40,8 @@ body{
   .swiper {
    
     --swiper-pagination-color: var(red);
-    width: 500px;
-    height: 500px;
+    width: 900px;
+    height: 700px;
   }
 
   .swiper-slide {
@@ -65,27 +65,13 @@ body{
   main{
     margin-bottom: 200px;
   }
-  .flex{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .flexbox{
-    margin: auto;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+
+
   
 .deux{
     height: 430px;
    }
-.flexboxDeux{
-    margin: auto;
-    flex-direction: row;
-}
+
 .swiper-button-prev {
     background: none;
     color: rgb(172, 9, 9) !important;
@@ -95,7 +81,8 @@ body{
     background: none;
     color: rgb(167, 4, 4) !important;
 }
-.container {  display: grid;
+.container {  
+  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -104,17 +91,55 @@ body{
     grid-template-areas:
       "photo1 photo2 photo3"
       "photo4 photo5 photo6";
-    width: 60%;
+    width: 30%;
     margin: auto;
     justify-items: center;
   }
   
   .photo1 { grid-area: photo1; 
-background-image: url("images/asterix.jpg");
+    
+background-image: url(images/asterix.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+margin-bottom: 140px;
 }
+.photo2{
+  background-image: url(images/babylon.jpg);
+  background-position: center
+   center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.photo3{
+ background-image: url(images/chti.jpg);
+  background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  }
+  .photo4{
+    background-image: url(images/chtite\ famille.jpg);
+    
+    background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+  .photo5{
+    background-image: url(images/dujardin.jpg);
+    
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  }
+  .photo6{
+    background-image: url(images/les\ bodins.jpg);
+    
+    background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
   
   .photo2 { grid-area: photo2; }
   
@@ -152,4 +177,10 @@ background-size: cover;
 .photo5 { grid-area: photo5; }
 
 .photo6 { grid-area: photo6; }
+h1{
+  text-align: center;
+  color: white;
+  margin-bottom: 150px;
+  font-size: 50px;
+}
 
