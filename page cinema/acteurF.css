@@ -1,0 +1,69 @@
+body{
+    background-image: url(images/background.png);
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+   padding-right: 10%;
+   padding-left: 10%;
+   padding-top: 40px;
+   color: white;
+   }
+   nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 30px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .navigation{
+      margin: -2%;
+      margin-bottom: 250px;
+    }
+    .logo{
+        width: 6%;
+    }
+    .container3{
+        display: flex;
+    }
+    .deNiro{
+        width: 500px;
+        position: relative;
+       
+    }
+    .tUn{
+       
+        margin-left: 500px;
+        font-size: 40px;
+        color: white;
+        }
+        h1{
+            font-size: 80px;
+            text-align: center;
+            color: white;
+        }
+        .acteurUn{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .acteurDeux{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+        p{
+           
+        font-size: 40px;
+        color: white;
+}
+
+
+    
+    
